@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <nav>
-      <ul>
+      <ul className="flex items-center">
         <li>
           <a href="#">Home</a>
         </li>
@@ -14,7 +14,7 @@ export default function Home() {
           <a href="#">Projects</a>
         </li>
         <li>
-          <a href="#"></a>
+          <a href="#">Contact Us</a>
         </li>
       </ul>
     </nav>
