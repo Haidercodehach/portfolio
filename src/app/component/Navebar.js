@@ -20,7 +20,12 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a className="text-xl font-bold hover:text-gray-600" href="#">
+          <a
+            className="text-xl font-bold hover:text-gray-600"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfEjtTPnnpLF6irQWybP6YS9vBLnpRtzMalG5NbwMFoHPXmqw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contact Us
           </a>
         </li>

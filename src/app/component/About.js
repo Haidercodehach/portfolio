@@ -9,7 +9,9 @@ export default function About() {
     <>
       <section className=" bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24">
         <div>
-          <h2 className="text-5xl ml-36 pl-36 pb-6">About Me</h2>
+          <div className="flex items-center justify-center">
+            <h2 className="text-5xl pt-4">About Me</h2>
+          </div>
           <p className=" text-xl">
             Hello,I'm Haider Aftab. Mainly a Game & Web developer. I have rich
             experience in Game development and Web development. My experience
@@ -20,7 +22,9 @@ export default function About() {
         </div>
       </section>
       <section className=" bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24">
-        <h2 className="text-5xl ml-36 pl-36 pb-6">Tech Stack</h2>
+        <div className="flex items-center justify-center">
+          <h2 className="text-5xl ">Tech Stack</h2>
+        </div>
         <div className="flex items-center justify-between">
           <Image src={UnityLg} alt="Blender Log" width={100} height={100} />
           <Image src={CLg} alt="C#" width={100} height={100} />
