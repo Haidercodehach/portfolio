@@ -8,7 +8,7 @@ export default function Projects() {
       className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24 max-md:p-2 max-md:m-5"
     >
       <div className=" flex items-center justify-center">
-        <h2 className=" text-5xl">Projects</h2>
+        <h2 className=" text-5xl font-bold max-md:text-3xl">Projects</h2>
       </div>
       <div className="flex items-center justify-between">
         <div>
