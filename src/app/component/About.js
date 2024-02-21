@@ -17,8 +17,8 @@ export default function About() {
               About Me
             </h2>
           </div>
-          <p className=" text-xl">
-            Hello,I'm Haider Aftab. Mainly a Game & Web developer. I have rich
+          <p className="text-xl">
+            Hello,I am Haider Aftab. Mainly a Game & Web developer. I have rich
             experience in Game development and Web development. My experience
             goes up to 3 years of both of these skills carved and honed with
             outmost focus, hard work and responsibility. Why have I chosen this
