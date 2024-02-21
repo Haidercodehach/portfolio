@@ -11,7 +11,7 @@ export default function MainHeader() {
         </p>
       </h2>
       <Image
-        className="mr-28"
+        className="mr-28 rounded-lg"
         src={Profilepic}
         alt="Haider Aftab"
         width={250}
