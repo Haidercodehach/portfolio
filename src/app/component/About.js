@@ -7,7 +7,10 @@ import FireBase from "../Assets/fireBase.png";
 export default function About() {
   return (
     <>
-      <section className=" bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24">
+      <section
+        id="about"
+        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24"
+      >
         <div>
           <div className="flex items-center justify-center">
             <h2 className="text-5xl pt-4">About Me</h2>
@@ -21,7 +24,10 @@ export default function About() {
           </p>
         </div>
       </section>
-      <section className=" bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24">
+      <section
+        id="techStack"
+        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24"
+      >
         <div className="flex items-center justify-center">
           <h2 className="text-5xl ">Tech Stack</h2>
         </div>
