@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24"
+      className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24 max-md:p-2 max-md:m-5"
     >
       <div className=" flex items-center justify-center">
         <h2 className=" text-5xl">Projects</h2>

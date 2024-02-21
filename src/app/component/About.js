@@ -9,11 +9,13 @@ export default function About() {
     <>
       <section
         id="about"
-        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24"
+        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24 max-md:p-2 max-md:m-5"
       >
         <div>
           <div className="flex items-center justify-center">
-            <h2 className="text-5xl pt-4">About Me</h2>
+            <h2 className="text-5xl font-bold pt-4 max-sm:text-3xl">
+              About Me
+            </h2>
           </div>
           <p className=" text-xl">
             Hello,I'm Haider Aftab. Mainly a Game & Web developer. I have rich
@@ -26,17 +28,47 @@ export default function About() {
       </section>
       <section
         id="techStack"
-        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24"
+        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24 max-md:p-2 max-md:m-5"
       >
         <div className="flex items-center justify-center">
-          <h2 className="text-5xl ">Tech Stack</h2>
+          <h2 className="text-5xl font-bold max-md:text-3xl ">Stack</h2>
         </div>
-        <div className="flex items-center justify-between">
-          <Image src={UnityLg} alt="Blender Log" width={100} height={100} />
-          <Image src={CLg} alt="C#" width={100} height={100} />
-          <Image src={PhotoshopLg} alt="Photoshop" width={100} height={100} />
-          <Image src={BlenderLg} alt="Blender Log" width={100} height={100} />
-          <Image src={FireBase} alt="firebase" width={100} height={100} />
+        <div className="flex items-center justify-between max-md:justify-center">
+          <Image
+            className=" max-md:w-20 max-sm:w-14"
+            src={UnityLg}
+            alt="Blender Log"
+            width={100}
+            height={100}
+          />
+          <Image
+            className=" max-md:w-20 max-sm:w-14"
+            src={CLg}
+            alt="C#"
+            width={100}
+            height={100}
+          />
+          <Image
+            className=" max-md:w-20 max-sm:w-14"
+            src={PhotoshopLg}
+            alt="Photoshop"
+            width={100}
+            height={100}
+          />
+          <Image
+            className=" max-md:w-20 max-sm:w-14"
+            src={BlenderLg}
+            alt="Blender Log"
+            width={100}
+            height={100}
+          />
+          <Image
+            className=" max-md:w-20 max-sm:w-14"
+            src={FireBase}
+            alt="firebase"
+            width={100}
+            height={100}
+          />
         </div>
       </section>
     </>

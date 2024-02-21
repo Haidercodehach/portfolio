@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex item-center justify-between p-4 fixed top-0 z-50 max-sm:p-2">
+    <nav className="flex item-center justify-between p-4 fixed w-full bg-gray-200 z-50 max-sm:p-2">
       <ul className="flex items-center justify-between gap-x-8">
         <li>
           <a
