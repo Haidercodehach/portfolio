@@ -4,6 +4,7 @@ import UnityLg from "../Assets/UnityLogo.png";
 import CLg from "../Assets/C-sharp.png";
 import PhotoshopLg from "../Assets/photoshop.png";
 import FireBase from "../Assets/fireBase.png";
+
 export default function About() {
   return (
     <>
@@ -34,6 +35,10 @@ export default function About() {
           <h2 className="text-5xl font-bold max-md:text-3xl ">Stack</h2>
         </div>
         <div className="flex items-center justify-between max-md:justify-center">
+          <button className=" bg-slate-500 opacity-50 text-9xl rounded-2xl text-gray-700 hover:opacity-90  ">
+            {" "}
+            {"<"}{" "}
+          </button>
           <Image
             className=" max-md:w-20 max-sm:w-14"
             src={UnityLg}
@@ -69,6 +74,10 @@ export default function About() {
             width={100}
             height={100}
           />
+          <button className=" bg-slate-500 opacity-50 text-9xl rounded-2xl text-gray-700 hover:opacity-90  ">
+            {" "}
+            {">"}{" "}
+          </button>
         </div>
       </section>
     </>
