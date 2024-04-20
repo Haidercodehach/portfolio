@@ -5,12 +5,16 @@ import CLg from "../Assets/C-sharp.png";
 import PhotoshopLg from "../Assets/photoshop.png";
 import FireBase from "../Assets/fireBase.png";
 
+const slider = {
+  hidden: { y: "-100%", opacity: 0 },
+  visible: { y: 0, opacity: 1 },
+};
 export default function About() {
   return (
     <>
       <section
         id="about"
-        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24 max-md:p-2 max-md:m-5"
+        className=" text-gray-700 bg-slate-500 bg-opacity-20 rounded-2xl ml-24 mb-28 pt-28 pl-28 pb-28 mr-24 pr-24 max-md:p-2 max-md:m-5 "
       >
         <div>
           <div className="flex items-center justify-center">
@@ -35,7 +39,7 @@ export default function About() {
           <h2 className="text-5xl font-bold max-md:text-3xl ">Stack</h2>
         </div>
         <div className="flex items-center justify-between max-md:justify-center">
-          <button className=" bg-slate-500 opacity-50 text-9xl rounded-2xl text-gray-700 hover:opacity-90  ">
+          <button className="max-md:text-5xl max-sm:text-4xl max-md:rounded-lg max-sm:rounded-lg  bg-slate-500 opacity-50 text-9xl rounded-2xl text-gray-700 hover:opacity-90  ">
             {" "}
             {"<"}{" "}
           </button>
@@ -68,13 +72,13 @@ export default function About() {
             height={100}
           />
           <Image
-            className=" max-md:w-20 max-sm:w-14"
+            className=" max-md:w-14 max-sm:w-14"
             src={FireBase}
             alt="firebase"
             width={100}
             height={100}
           />
-          <button className=" bg-slate-500 opacity-50 text-9xl rounded-2xl text-gray-700 hover:opacity-90  ">
+          <button className=" max-lg:text-6xl max-sm:text-4xl max-md:rounded-lg max-sm:rounded-lg  bg-slate-500 opacity-50 text-9xl rounded-2xl text-gray-700 hover:opacity-90  ">
             {" "}
             {">"}{" "}
           </button>

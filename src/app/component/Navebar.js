@@ -1,7 +1,12 @@
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default function Navbar() {
   return (
     <nav className="flex item-center justify-between p-4 fixed w-full bg-gray-900 z-50 max-sm:p-2">
-      <ul className="flex items-center justify-between gap-x-8 text-gray-400">
+      <ul className="flex items-center justify-between gap-x-8 max-sm:gap-x-4 text-gray-400">
         <li>
           <a
             className="text-xl font-bold hover:text-gray-600 max-sm:text-lg"
